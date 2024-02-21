@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Visita Técnica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+
+    <form id="technicalVisitForm">
+        <label>FOTO DA FRENTE DA CASA ANEXA?</label>
+        <textarea id="frontPhoto"></textarea>
+
+        <label>ATENDENTE DA ABERTURA DA O.S. PREENCHEU COM AS INFORMAÇÕES NECESSÁRIAS?</label>
+        <textarea name="osInfoFilled"></textarea>
+
+        <label>CABO DE REDE?</label>
+        <textarea name="networkCable"></textarea>
+
+        <label>FIRMWARE ATUALIZADO?</label>
+        <textarea name="firmwareUpdate"></textarea>
+
+        <label>FOTO DOS EQUIPAMENTOS ESTÃO ANEXAS?</label>
+        <textarea name="equipmentPhoto"></textarea>
+
+        <label>SINAL DA FIBRA:</label>
+        <textarea name="fiberSignal"></textarea>
+
+        <label>TESTE DE VELOCIDADE DOWN:</label>
+        <textarea name="speedTestDown"></textarea>
+
+        <label>UP:</label>
+        <textarea name="speedTestUp"></textarea>
+
+        <label>PING:</label>
+        <textarea name="speedTestPing"></textarea>
+
+        <label>RELATO DA SOLUÇÃO PARA A VISITA TÉCNICA:</label>
+        <textarea name="solutionReport"></textarea>
+    </form>
+    
+    <div id="copyButton" onclick="copyPageContent()">Copiar</div>
+    <script src="./main.js"></script>
+</body>
+</html>
