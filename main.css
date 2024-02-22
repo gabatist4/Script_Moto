@@ -32,36 +32,37 @@ textarea {
     color: aliceblue;
     cursor: pointer;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .simNao {
-    width: 110px;
+    width: 120px;
     height: 20px;
 }
 
 #netCabo {
-    width: 125px;
+    width: 135px;
     height: 20px;
 }
 
 #localAdequado {
-    width: 220px;
+    width: 230px;
     height: 20px;
 }
 
 #fiberSinal {
-    width: 190px;
+    width: 200px;
     height: 20px;
-}
-
-#ajudaInterno {
-    width: 230px;
-    height: 50px;
 }
 
 #speedTest {
     width: 165px;
     height: 80px;
+}
+
+#ajudaInterno {
+    width: 240px;
+    height: 50px;
 }
 
 #solucao {
@@ -71,6 +72,6 @@ textarea {
 
 #foiRetirado,
 #noLocal {
-    width: 230px;
-    height: 60px;
+    width: 250px;
+    height: 65px;
 }
