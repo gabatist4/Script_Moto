@@ -15,3 +15,13 @@ function copyPageContent() {
     document.body.removeChild(copyText);
     alert('Conteúdo da página copiado com sucesso!');
 }
+
+function confirmarAtualizacao() {
+            
+    var confirmacao = confirm("Tem certeza que deseja atualizar a página?");
+
+    
+    if (confirmacao) {
+    location.reload();
+    }
+}
