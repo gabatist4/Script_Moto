@@ -36,15 +36,11 @@ textarea {
 
 #casaFoto,
 #osInfoAten,
+#netCabo,
 #firmware,
 #equipmentFoto,
 #limpeza,
 #trocaNece {
-    width: 105px;
-    height: 20px;
-}
-
-#netCabo {
     width: 125px;
     height: 20px;
 }
@@ -60,18 +56,18 @@ textarea {
     height: 50px;
 }
 
-#foiRetirado,
-#noLocal {
-    width: 220px;
-    height: 70px;
-}
-
 #speedTest {
     width: 200px;
-    height: 80px;
+    height: 90px;
 }
 
 #solucao {
-    width: 350px;
-    height: 150px;
+    width: 320px;
+    height: 180px;
+}
+
+#foiRetirado,
+#noLocal {
+    width: 220px;
+    height: 60px;
 }
