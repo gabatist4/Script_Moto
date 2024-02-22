@@ -28,8 +28,8 @@ textarea {
     bottom: 10px;
     right: 10px;
     padding: 10px;
-    background-color: #99af4c;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: black;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -40,29 +40,33 @@ textarea {
 #equipmentFoto,
 #limpeza,
 #trocaNece {
-    width: 60px;
+    width: 105px;
+    height: 20px;
+}
+
+#netCabo {
+    width: 120px;
     height: 20px;
 }
 
 #fiberSinal,
-#netCabo {
-    width: 90px;
+#localAdequado {
+    width: 220px;
     height: 20px;
 }
 
-#localAdequado,
-#speedTest,
 #ajudaInterno {
-    width: 200px;
-    height: 30px;
+    width: 280px;
+    height: 50px;
 }
 
 #foiRetirado,
 #noLocal {
-    width: 200px;
+    width: 220px;
     height: 70px;
 }
 
+#speedTest,
 #solucao {
     width: 300px;
     height: 100px;
