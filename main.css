@@ -41,7 +41,7 @@ textarea {
 #equipmentFoto,
 #limpeza,
 #trocaNece {
-    width: 125px;
+    width: 135px;
     height: 20px;
 }
 
@@ -53,12 +53,12 @@ textarea {
 
 #ajudaInterno {
     width: 280px;
-    height: 50px;
+    height: 55px;
 }
 
 #speedTest {
     width: 200px;
-    height: 90px;
+    height: 85px;
 }
 
 #solucao {
@@ -68,6 +68,6 @@ textarea {
 
 #foiRetirado,
 #noLocal {
-    width: 220px;
+    width: 225px;
     height: 60px;
 }
