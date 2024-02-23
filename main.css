@@ -46,11 +46,11 @@ textarea {
 }
 
 #localAdequado {
-    width: 230px;
+    width: 255px;
     height: 20px;
 }
 
-#fiberSinal {
+#sinal {
     width: 210px;
     height: 20px;
 }
@@ -73,5 +73,5 @@ textarea {
 #foiRetirado,
 #noLocal {
     width: 250px;
-    height: 65px;
+    height: 50px;
 }
